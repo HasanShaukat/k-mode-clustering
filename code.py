@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 # Now, let's use a dummy dataset and see how it is:
 
-data = pd.read_csv('data1.csv')
+data = pd.read_csv('data.csv')
 
 one_hot_df = data.copy()
 for i,name in enumerate(data['Skill'].unique()):
